@@ -24,4 +24,13 @@ Question: The marketing department at your company has promised your customers t
 
 
 
-Answer:
+Answer: 
+
+Amdahl's Law: $$ T_{new} = (1-\alpha)T_{old} + (\alpha T_{old}/k) = T_{old}[(1-\alpha) + \alpha/k] $$
+
+Then speedup $$ S = T_{old}/T_{new} = \frac{1}{(1-\alpha) + \alpha/k} $$
+
+$$ 2 = \frac{1}{(1-0.8) + 0.8/k} $$
+
+$$ k = 2.67 $$
+
